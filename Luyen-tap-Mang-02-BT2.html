@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT2</title>
+</head>
+<body>
+    <script>
+        var array = ['c','s','c','2','6','1'];
+        var first = 0;
+        var last = array.length - 1;
+        while (first < last){
+            var b = array[first];
+            array[first] = array[last];
+            array[last] = b;
+            first++;
+            last--;
+        }
+        document.write(array.join(''));
+    </script>
+</body>
+</html>

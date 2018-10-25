@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT5</title>
+</head>
+<body>
+    <script>
+        var a = prompt('Enter a string');
+        var b = prompt('Enter a string');
+        var count = 0;
+        for (var i = 0; i < a.length; i++){
+            if (a[i] === b[i] ){
+                count++;
+            }
+        }
+        if (count === a.length){
+            alert('Hai mảng đã nhập là giống nhau ');
+        } else
+            alert('Hai mảng đã nhập là khác nhau ');
+    </script>
+</body>
+</html>
